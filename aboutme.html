@@ -34,17 +34,23 @@
                             <h3><h><font size="4">Background</font></h2></button>
 
             <script>
+           hr/>
+    <button id="toggle-btn">background</button>
+    <p id="background">
+      Helloooooooooooooooooooooooooooooooo
+    </p>     
+                
                 var toggleBtn = document.getElementById("toggle-btn");
 toggleBtn.addEventListener("click", myToggleFunction);
 
 function myToggleFunction() {
-    var x = document.getElementById('myBio');
+    var x = document.getElementById('background');
     if (x.style.display === 'none') {
         x.style.display = 'block';
-        toggleBtn.innerHTML = "hide my bio";
+        toggleBtn.innerHTML = "hide background";
     } else {
         x.style.display = 'none';
-        toggleBtn.innerHTML = "show my bio";
+        toggleBtn.innerHTML = "show background";
     }
 }
 
