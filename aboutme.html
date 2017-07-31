@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-img {
-    display: block;
-    margin: 0 auto;
-}
-</style>
-</head>
-<body>
-
-<html>
 
 <head>
     <style>
-        h1 {
-            text-align: center;
-        }
-        
-        h2 {
-            text-align: center;
-        }
-        
-        h3 {
-            text-align: center;
+        img {
+            display: block;
+            margin: 0 auto;
         }
     </style>
 </head>
 
 <body>
 
-    <h1> <h><font size="8">Tiffany Williams</font></h></h1>
+    <html>
 
-    <brk>
-        <html>
-<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            h3 {
+                text-align: center;
+            }
+        </style>
+    </head>
 
-        <body>
+    <body>
 
-            <div align="center">
+        <h1> <h><font size="8">Tiffany Williams</font></h></h1>
 
-                <body>
+        <brk>
+            <html>
+            <html>
 
-                    <button onclick="myinfoFunction()">
-                        <h3><h><font size="4">Background</font></h2></button>
+            <body>
+
+                <div align="center">
+
+                    <body>
+
+                        <button onclick="myinfoFunction()">
+                            <h3><h><font size="4">Background</font></h2></button>
 
             <script>
-                function myinfoFunction() { 
-                    text = "I go to a amth and science high schoool in Manattan.";
-                    if (document.getElementById("demo").innerHTML == "") { 
-                        document.getElementById("demo").innerHTML = text;
-                    } 
-                    if (document.getElementById("demo").innerHTML == text) { 
-                        document.getElementById("demo").innerHTML = "";
-                    }
-                }
-                function myResumeFunction() {
-                    document.getElementById("demo").innerHTML = "WHERE MY PDF WILL GO";
-                }
+                var toggleBtn = document.getElementById("toggle-btn");
+toggleBtn.addEventListener("click", myToggleFunction);
+
+function myToggleFunction() {
+    var x = document.getElementById('myBio');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+        toggleBtn.innerHTML = "hide my bio";
+    } else {
+        x.style.display = 'none';
+        toggleBtn.innerHTML = "show my bio";
+    }
+}
+
             </script>   
 
         </body>
