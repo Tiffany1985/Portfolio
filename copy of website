@@ -1,127 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-img {
-    display: block;
-    margin: 0 auto;
-}
-</style>
-</head>
-<body>
-
-<html>
 
 <head>
     <style>
-        h1 {
-            text-align: center;
+  
+        img {
+            display: block;
+            margin: 0 auto;
         }
-        
-        h2 {
-            text-align: center;
-        }
-        
-        h3 {
-            text-align: center;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h1> <h><font size="8">Tiffany Williams</font></h></h1>
-
-    <brk>
-        <html>
-<html>
-
-        <body>
-
-            <div align="center">
-
-                <body>
-
-                    <button onclick="myinfoFunction()">
-                        <h3><h><font size="4">Background</font></h2></button>
-
-            <script>
-                function myinfoFunction() { 
-                    text = "I go to a amth and science high schoool in Manattan.";
-                    if (document.getElementById("demo").innerHTML == "") { 
-                        document.getElementById("demo").innerHTML = text;
-                    } 
-                    if (document.getElementById("demo").innerHTML == text) { 
-                        document.getElementById("demo").innerHTML = "";
-                    }
-                }
-                function myResumeFunction() {
-                    document.getElementById("demo").innerHTML = "WHERE MY PDF WILL GO";
-                }
-            </script>   
-
-        </body>
-
-</div>
-
-</body>
-</html>
-
-      <html>
-<body>
-
-<div align="center" >
-<body>
-
-            <button onclick="myResumeFunction()">
-                <h3><h><font size="4">Resume</font></h2></button>
-
-            <p id="demo"></p>
-
-            <script>
-            </script>
-
-        </body>
-
-</div>
-
-</body>
-</html>
-</body>
-
-   <html>
-<head>
-<style>
+            h1 {
+                text-align: center;
+            }
+            
+            h2 {
+                text-align: center;
+            }
+            
+            h3 {
+                text-align: center;
+            }
 body {
-    color: blue;
-}
-h1 {
-    color: black;
-}
-</style>
-</head>
-<body>
-
-</body>
-</html>
-<html>
-<head>
-<style>
-body {
-    background-color: dodgerblue;
+    background-color: lightsalmon;
 }
 h1 {
 }
 p {
 }
 </style>
-</head>
-<body>
+
+
+
+</body>
+        </style>
+    </head>
+
+    <body>
+
+        <h1> <h><font size="8">Tiffany Williams</font></h></h1>
+
+        <brk>
+
+                <div align="center">
+
+
+                        <button onclick="mytoggleFunction()">
+                            <h3><h><font size="4">Background</font></h2></button>
+
+            <script>
+      
+<button id="button" >Background</button>
+<p id="demo">I go to highschool. I am in highschool. I am in a grade in highschool. I am a grade above 9th in highschool.  !</p>
+<script>
+function changeText() {
+    var x = document.getElementById('demo');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+document.getElementById("button").addEventListener("click", changeText);
+</script
+    }
+}
+
+            </script>   
+
+            <button onclick="myResumeFunction()">
+                <h3><h><font size="4">Resume</font></h2></button>
+
+            <p id="demo"></p>
+
+<img src="https://s-media-cache-ak0.pinimg.com/736x/98/8b/7b/988b7bcd65ac5135b01dfadddb20827a--cute-quotes-short-insta-quotes-short.jpg " alt="Paris" style="width:40%">
 
 </body>
 </html>
-
-<img src="https://ih0.redbubble.net/image.5081325.7302/flat,800x800,070,f.jpg " alt="Paris" style="width:40%">
-
-</body>
-</html>  
